@@ -8,5 +8,6 @@ class PagesController < ApplicationController
   end
 
   def contact
+    @members = %w[gabriel gustavo mathias dimitri john ted]
   end
 end

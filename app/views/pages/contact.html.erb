@@ -1,1 +1,9 @@
-<p>This awesome contact page</p>
+<h1>This awesome contact page</h1>
+
+<h2>Let's meet our members!</h2>
+
+<ol>
+  <% @members.each do |member| %>
+    <li> <%= member.capitalize %> </li>
+  <% end %>
+</ol>
